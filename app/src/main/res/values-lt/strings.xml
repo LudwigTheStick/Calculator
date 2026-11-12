@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Skaičiuotuvas</string>
+    <string name="calculator_mode_standard">Standartinis</string>
+
+    <!-- Operation Buttons Display Text -->
+    <string name="btn_percent">%</string>
+    <string name="btn_clear_entry">CE</string>
+    <string name="btn_clear">C</string>
+    <string name="btn_backspace">⌫</string>
+    <string name="btn_reciprocal">1/x</string>
+    <string name="btn_square">x²</string>
+    <string name="btn_sqrt">√x</string>
+    <string name="btn_divide">÷</string>
+    <string name="btn_multiply">×</string>
+    <string name="btn_subtract">−</string>
+    <string name="btn_add">+</string>
+    <string name="btn_equals">=</string>
+    <string name="btn_negate">+/-</string>
+    <string name="btn_decimal">,</string>
+
+    <!-- Number Buttons -->
+    <string name="btn_0">0</string>
+    <string name="btn_1">1</string>
+    <string name="btn_2">2</string>
+    <string name="btn_3">3</string>
+    <string name="btn_4">4</string>
+    <string name="btn_5">5</string>
+    <string name="btn_6">6</string>
+    <string name="btn_7">7</string>
+    <string name="btn_8">8</string>
+    <string name="btn_9">9</string>
+
+    <!-- History UI -->
+    <string name="history_title">Istorija</string>
+    <string name="history_empty">Istorijos dar nėra</string>
+    <string name="history_clear">Išvalyti istoriją</string>
+    <string name="history_open">Atidaryti istoriją</string>
+    <string name="history_close">Uždaryti istoriją</string>
+
+    <!-- Error Messages -->
+    <string name="error_divide_by_zero">Dalyba iš nulio negalima</string>
+    <string name="error_invalid_input">Neteisinga įvestis</string>
+
+    <!-- Accessibility / Content Descriptions -->
+    <string name="cd_percent">Procentai</string>
+    <string name="cd_clear_entry">Išvalyti įvestį</string>
+    <string name="cd_clear">Išvalyti viską</string>
+    <string name="cd_backspace">Trinti ženklą</string>
+    <string name="cd_reciprocal">Vienetas padalintas iš x</string>
+    <string name="cd_square">Kėlimas kvadratu</string>
+    <string name="cd_sqrt">Kvadratinė šaknis</string>
+    <string name="cd_divide">Dalyba</string>
+    <string name="cd_multiply">Daugyba</string>
+    <string name="cd_subtract">Atimtis</string>
+    <string name="cd_add">Sudėtis</string>
+    <string name="cd_equals">Lygu</string>
+    <string name="cd_negate">Pakeisti skaičiaus ženklą</string>
+    <string name="cd_decimal">Kablelis</string>
+</resources>
