@@ -19,11 +19,6 @@ data class CalculatorState(
 
 class CalculatorEngine {
 
-    companion object {
-        /** Maximum number of digits (excluding negative sign and decimal point) allowed in input */
-        private const val MAX_INPUT_LENGTH = 16
-    }
-
     private var currentInput: String = "0"
     private val expressionTokens = mutableListOf<ExpressionToken>()
     private var isNewInput: Boolean = true
@@ -349,6 +344,9 @@ class CalculatorEngine {
     }
 
     companion object {
+        /** Maximum number of digits (excluding negative sign and decimal point) allowed in input */
+        private const val MAX_INPUT_LENGTH = 16
+
         fun formatBigDecimal(value: BigDecimal): String {
             var stripped = value.stripTrailingZeros()
             if (stripped.scale() < 0) {
